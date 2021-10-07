@@ -25,7 +25,8 @@ public class BiConsumerTest {
 		x.stream().sorted().collect(Collectors.toList());
 		;
 
-		System.out.println(f.andThen(ft).apply(2, 3));//and then mathod takes function but in function lamda 
+		System.out.println(f.andThen(ft).apply(2, 3));//and then 
+		//method takes function but in function lamda 
 		//the input should be same of bifunction return type
 
 		Map<Integer, String> m = new HashMap<>();

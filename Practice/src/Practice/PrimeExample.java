@@ -1,9 +1,11 @@
 package Practice;
+
 public class PrimeExample {
 	public static void main(String args[]) {
-		int i,m = 0,flag = 0;
+		int i, m = 0, flag = 0;
 		int n = 3;// it is the number to be checked
-		m = n / 2;
+		m = n / 2;// divifing with 2 because no number can be divisble with number
+		// more then half of it
 		if (n == 0 || n == 1) {
 			System.out.println(n + " is not prime number");
 		} else {
@@ -14,9 +16,9 @@ public class PrimeExample {
 					break;
 				}
 			}
-			if (flag == 0)
-			{
+			if (flag == 0) {
 				System.out.println(n + " is prime number");
+				
 			}
 		} // end of else
 	}
