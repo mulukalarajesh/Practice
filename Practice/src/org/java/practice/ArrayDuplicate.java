@@ -13,7 +13,7 @@ public class ArrayDuplicate {
 			for (int j = i + 1; j < a.length; j++) {
 
 				if (a[i] == a[j]) {
-					System.out.println(a[i]);
+					System.out.println("array duplicates are "+a[i]);
 				}
 			}
 		}
