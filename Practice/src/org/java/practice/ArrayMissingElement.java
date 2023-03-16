@@ -18,7 +18,7 @@ public class ArrayMissingElement {
 			temp=temp+y;
 			
 		}
-		System.out.println("missing number is "+ (x-temp));
+		System.out.println("missing number in the array is "+ (x-temp));
 		
 		
 	}
