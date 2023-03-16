@@ -14,7 +14,7 @@ public class ComparaterEx {
 	}
 
 }
-//added comment
+//comparator for custom classes 
 class Mycomparator implements Comparator<Integer> {
 
 	@Override
